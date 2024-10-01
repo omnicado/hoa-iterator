@@ -87,7 +87,7 @@ class Buffer extends IteratorIterator implements Outer
     /**
      * Get inner iterator.
      */
-    public function getInnerIterator(): iterable
+    public function getInnerIterator(): ?\Iterator
     {
         return $this->_iterator;
     }
