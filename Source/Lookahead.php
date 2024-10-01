@@ -96,7 +96,7 @@ class Lookahead extends IteratorIterator implements Outer
     /**
      * Return the key of the current element.
      */
-    public function key()
+    public function key(): mixed
     {
         return $this->_key;
     }
